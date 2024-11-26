@@ -5,19 +5,19 @@ import factorial as factorial
 import multiply as multiply
 import subtract as subtract
 
-operation = int(input("Type the number of the operation you want to perform \n0: Addition \n1: Roll A Die \n2: Division \n3: Factorials \n4: Multiplication \n5: Subtraction"))
+operation = int(input("Type the number of the operation you want to perform \n0: Addition \n1: Division \n2: Factorials \n3: Multiplication \n4: Roll A Die \n5: Subtraction"))
 
 match operation:
     case 0:
         add.main()
     case 1:
-        dieroll.main()
-    case 2:
         divide.main()
-    case 3:
+    case 2:
         factorial.main()
-    case 4:
+    case 3:
         multiply.main()
+    case 4:
+        dieroll.main()
     case 5:
         subtract.main()
     case _:
