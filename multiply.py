@@ -1,5 +1,3 @@
-import math
-
 num1 = float(input("What's your first number? "))
 num2 = float(input("What's your second number? "))
 

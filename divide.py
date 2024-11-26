@@ -1,5 +1,3 @@
-import math
-
 dividend = float(input("What's your dividend? "))
 divisor = float(input("What's your divisor? "))
 
