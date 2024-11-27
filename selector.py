@@ -5,9 +5,10 @@ import factorial as factorial
 import kinetic as kinetic
 import multiply as multiply
 import potential as potential
+import spring as spring
 import subtract as subtract
 
-operation = int(input("Type the number of the operation you want to perform \n0: Addition \n1: Division \n2: Factorials \n3: Kinetic Energy \n4: Multiplication \n5: Potential Energy \n6: Roll A Die \n7: Subtraction\n"))
+operation = int(input("Type the number of the operation you want to perform \n0: Addition \n1: Division \n2: Factorials \n3: Kinetic Energy \n4: Multiplication \n5: Potential Energy \n6: Roll A Die \n7: Spring Energy \n8: Subtraction\n"))
 
 match operation:
     case 0:
@@ -25,6 +26,8 @@ match operation:
     case 6:
         dieroll.main()
     case 7:
+        spring.main()
+    case 8:
         subtract.main()
     case _:
         print("Invalid number")
